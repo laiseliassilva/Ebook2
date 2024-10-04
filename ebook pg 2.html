@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="description" content="Ao escrever uma meta tag, use entre 140 e 160 caracteres para que o Google possa exibir toda a sua mensagem. Não se esqueça de incluir sua palavra-chave!">
+    <meta charset="UTF-8">
+      <title> Inscrição: Domine o mercado financeiro e construa sua independência financeira</title>
+</head>
+<link rel="stylesheet" href="estilo2.css">
+    <header>
+        <h1>Domine o mercado financeiro e construa sua independência financeira</h1>
+        <nav>
+            <a href="ebook pg 1.html">Voltar</a> 
+        </nav>
+    </header>
+    <section>
+        <h2>Inscreva-se Agora</h2>
+        <form action="pagamento.html" method="get">
+            <fieldset>
+                <legend><strong>Dados Pessoais</strong></legend>
+                <label for="checkbox-nome"> Nome: </label>
+                <input type="text" name="nome" placeholder="Digite o nome" required/>
+                <br>
+                <label for="checkbox-dt_nasc"> Data de Nascimento: </label>
+                <input type="date" name="dt_nasc" required/>
+                <BR>
+                <br>
+                <label for="checkbox-CPF"> CPF: </label>
+                <input type="text" name="checkbox-CPF" placeholder="Digite o CPF" maxlength="11" required/>
+                <br>
+                <label for="checkbox-email"> Email: </label>
+                <input type="email" name="email" placeholder="Digite o email" required/>
+                <br>
+                <label for="checkbox-telefone"> Telefone: </label>
+                <input type="tel" name="telefone" placeholder="Digite o telefone" maxlength="11" required/>
+            </fieldset>
+            <br>
+            <h2>Pagamento</h2>
+           <strong>Selecione a forma de Pagamento</strong>
+           <br>
+            <input type="radio" name="resposta" id="animal-sim" value="Cartão de Crédito" checked>
+            <label for="animal-sim">Cartão de Crédito</label>  
+            <input type="radio" name="resposta" id="animal-sim" value="PIX" checked required>
+            <label for="animal-sim">PIX </label>
+            <br>
+            <br>
+        <form action="confirmacao.html" method="post">
+        <fieldset>
+            <legend><strong>Dados do Cartão</strong></legend>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <label for="cartao">Número do Cartão:</label>
+            <input type="text" id="cartao" name="cartao" placeholder="**** **** **** ****" maxlength="12"  required>
+            <br>
+            <label for="validade">Validade:</label>
+            <input type="date" id="validade" name="validade" placeholder="mm/aa"required>
+            <br>
+            <br>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="***"  maxlength="3" required>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Termos de contrato</strong></legend>
+            <p>Ao acessar e utilizar nossos serviços, você concorda com os seguintes termos e condições. Se você
+                não concordar com algum dos aspectos aqui descritos, solicitamos que não continue a utilizar
+                nosso site/serviço.
+    
+                Podemos alterar estes termos a qualquer momento. As mudanças serão publicadas nesta página, e o
+                uso contínuo do site/serviço após essas modificações implica na aceitação das novas condições.
+                Assim, recomendamos que você revise esta página periodicamente.</p>
+                <input type="checkbox" id="checkbox-futebol" name="esportes[]" value="TT" checked required />
+    
+                <label for="checkbox-futebol">Aceito os termos de contrato</label>
+    
+                <input type="checkbox" id="checkbox-futebol" name="esportes[]" value="TT" />
+    
+                <label for="checkbox-futebol">Aceito receber notícias</label>
+              </fieldset>
+              <br>
+        <br>
+        
+            <button>Confirme o Pagamento</button></a>
+
+    </section>
+    <footer>
+        <center> <p>&copy; Copyright  2024 - SENAI - Serviço Nacional de Aprendizagem Industrial </p></center>
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      </section>
+      <a href="ebook pg3.html">
+</body>
+</html>
